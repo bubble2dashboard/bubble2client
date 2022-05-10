@@ -3,8 +3,8 @@ import React, { useState } from 'react';
 import { useNavigate } from 'react-router-dom';
 import classes from './Login.module.css';
 
-const cUserName = 'gio123';
-const cPassword = 'gio123';
+const cUserName = 'bubble2';
+const cPassword = 'bubble2';
 
 function Login() {
 	const [username, setUserName] = useState('');
