@@ -41,7 +41,7 @@ function Login() {
 		<div className={classes['login-container']}>
 			<div className={classes['login-banner']}>
 				<div className={classes['login-banner-content']}>
-					<h1>LOGIN PAGE</h1>
+					<h1>ENVIROIMPACT</h1>
 				</div>
 			</div>
 
