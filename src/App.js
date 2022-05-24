@@ -1,4 +1,5 @@
 import Login from './components/Login.js';
+import Register from './components/Register.js';
 
 import Dashboard from './components/Dashbaord.js';
 
@@ -10,6 +11,7 @@ function App() {
 			<Routes>
 				<Route path='/dashboard' element={<Dashboard />} />
 				<Route path='/*' element={<Login />} />
+				<Route path='/register' element={<Register />} />
 			</Routes>
 		</Router>
 	);
